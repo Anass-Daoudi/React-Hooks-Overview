@@ -5,7 +5,7 @@ import VisibilityToggling from './effect-hook-examples/VisibilityToggling';
 import VisibilityTogglingWithHoverTimes from './effect-hook-examples/VisibilityTogglingWithHoverTimes';
 import VisibilityTogglingWithHoverTimesV2 from './effect-hook-examples/VisibilityTogglingWithHoverTimesV2';
 import AsyncIncCounterWithHOCExample from './hoc-vs-hooks/AsyncIncCounterWithHOCExample';
-import AsyncIncCounterWithHooksSExample from './hoc-vs-hooks/AsyncIncCounterWithHooksSExample';
+import AsyncIncCounterWithHooksExample from './hoc-vs-hooks/AsyncIncCounterWithHooksExample';
 
 const Main = () => (
     <React.Fragment>
@@ -21,7 +21,7 @@ const Main = () => (
         <hr />
         <AsyncIncCounterWithHOCExample />
         <hr />
-        <AsyncIncCounterWithHooksSExample />
+        <AsyncIncCounterWithHooksExample />
     </React.Fragment>
 );
 
